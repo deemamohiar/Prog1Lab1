@@ -43,7 +43,14 @@ public class Lab4 {
         EmailCheck.IsValid(email);
             
         
-        
+        System.out.println(" ***** Question 3 *****");
+      
+        System.out.println("I'm thinking of a number between 0 and 100. \nYou have 10 tries to guess it!");
+       
+        RandomNumber r =  new RandomNumber();
+        r.getGuess();
+        RandomNumber.guessNumber(r.getGuess());
+                
         }
 }
 
