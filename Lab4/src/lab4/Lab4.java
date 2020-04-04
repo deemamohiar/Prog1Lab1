@@ -33,6 +33,17 @@ public class Lab4 {
             else{
                 System.out.println("\"" + word + "\" is not a palindrome!");       
                     }  
+            
+            
+        System.out.println("***** Question 2 *****");    
+        
+        System.out.println("Enter an email to validate: ");
+        String email = scan.next();
+        
+        EmailCheck.IsValid(email);
+            
+        
+        
         }
 }
 
